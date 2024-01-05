@@ -58,6 +58,9 @@ const fillBalloon = (balloonObject) => {
 
 // Need a function to generate a random wind speed number
     // Use Math.random and Math.floor to generate an integer between 10-50
+const generateWindSpeed = () => {
+    return Math.floor((Math.random() * 41) + 10)
+}
 
 // Function for the process of filling each balloon and then starting the race
     // This function should include all operations for the entire race
